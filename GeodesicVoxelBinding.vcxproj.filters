@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Mesh">
+      <UniqueIdentifier>{41199047-a1e7-4414-bdc0-476e40f85d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Skeleton">
+      <UniqueIdentifier>{6a1620cb-b9ba-4f32-854d-df8e24465947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Voxel">
+      <UniqueIdentifier>{4fd9e272-d636-40c8-b701-8f92e68b4fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mesh">
+      <UniqueIdentifier>{1fb0d38c-9a1d-41a5-9f8b-ac534b4cdee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Skeleton">
+      <UniqueIdentifier>{085aafec-9a81-4b98-85f8-442491d743ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Voxel">
+      <UniqueIdentifier>{22fa7c94-37f6-4d7c-8b4e-ef12af882cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PathFind">
+      <UniqueIdentifier>{ca0fdd40-b7c8-4d15-b987-c6b0e20c6c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PathFind">
+      <UniqueIdentifier>{a67b5649-d677-418d-896e-284460a72ba4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vec3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>헤더 파일\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>헤더 파일\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMesh.h">
+      <Filter>헤더 파일\Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>헤더 파일\Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel_dijkstra.h">
+      <Filter>헤더 파일\PathFind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Face.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>소스 파일\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="GridMesh.cpp">
+      <Filter>소스 파일\Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>소스 파일\Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="voxel_dijkstra.cu">
+      <Filter>소스 파일\PathFind</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
